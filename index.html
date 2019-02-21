@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>erhidayat</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+    <!-- MY CSS Start-->
+    <style>
+        section {
+            min-height:482px;
+        }
+        .background-image {
+            position: relative;
+            top:0;
+            margin-top:0px;
+            background-size: cover;
+            height:674.5px;
+            width:100%;
+            filter:brightness(0.15);
+        }
+        .container-mystyle {
+            position:absolute;
+            z-index:1;
+            left:0;
+            right:0;
+            margin-top:180px;
+        }
+        .mystyle-progress-text {
+            letter-spacing: 3px;
+            font-weight:500;
+        }
+        .bg-navbar-mystyle {
+            background-color: transparent;
+            position:absolute !important;
+            z-index:10;
+            top:0;
+            left:0;
+            right:0;
+        }
+        .btn-mystyle {
+            border:1px solid white;
+            border-radius: 10px;
+        }
+        .img-portfolio-mystyle {
+            width:200px;
+            margin:10px;
+        }
+        .row-portfolio-mystyle {
+            max-width:600px;
+        }
+        .portfolio-card-mystyle {
+            margin:10px;
+        }
+    </style>
+    <!-- MY CSS End-->
+</head>
+<body>
+    <nav class="navbar navbar-expand-sm navbar-dark bg-navbar-mystyle">
+        <div class="container">
+            <a class="navbar-brand" href="#">Cikhidayat</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                <div class="navbar-nav">
+                <a class="nav-item nav-link active" href="#">Home <span class="sr-only">(current)</span></a>
+                <a class="nav-item nav-link" href="#about">About</a>
+                <a class="nav-item nav-link" href="#portfolio">Portfolio</a>
+                <a class="nav-item nav-link" href="#contact">Contact</a>
+            </div>
+        </div>
+        </div>
+    </nav>
+
+        <div class="container text-center container-mystyle text-white">
+            <h1 class="display-4">I'M A FRONT-END WEB DEVELOPER</h1>
+            <p class="lead">Welcome to my portfolio website, please enjoy!</p>
+            <a class="btn btn-outline-light" href="#about" role="button">Know More</a>
+        </div> 
+    <img class="background-image" src="img/background.jpg" alt="">
+
+    <section id="about" class="pt-5 about">
+        <div class="container">
+            <div class="row">
+                <div class="col text-center">
+                    <h2>About</h2>
+                </div>
+            </div>
+            <div class="row mt-4">
+                <div class="col-md-6 text-center">
+                    <img class="rounded-circle" src="img/rahmat.jpg" alt="" width="235px">
+                    <h4 class="pt-2">RAHMAT HIDAYAT<sup><img src="img/indonesia.png" alt="" width="25px"></sup></h4>
+                    <p>I'm a front-end web developer. Still not master yet and need more lesson. I'm ready to working on the project that I can do, and I'm ready to hired for working together in a tim on a project.</p>
+                </div>
+                
+                <div class="col-md-6">
+                    <p class="container mt-4 mystyle-progress-text">HTML</p>
+                    <div class="progress">
+                        <div class="progress-bar progress-bar-striped progress-bar-animated bg-danger" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100" style="width: 90%">
+                        </div>
+                    </div>
+                    <p class="container mt-4 mystyle-progress-text">CSS</p>
+                    <div class="progress">
+                        <div class="progress-bar progress-bar-striped progress-bar-animated bg-success" role="progressbar" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100" style="width: 85%">
+                        </div>
+                    </div>
+                    <p class="container mt-4 mystyle-progress-text">Javascript</p>
+                    <div class="progress">
+                        <div class="progress-bar progress-bar-striped progress-bar-animated bg-warning" role="progressbar" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100" style="width: 70%">
+                        </div>
+                    </div>
+                    <p class="container mt-4 mystyle-progress-text">Bootstrap</p>
+                    <div class="progress">
+                        <div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar" aria-valuenow="45" aria-valuemin="0" aria-valuemax="100" style="width: 45%">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="portfolio" class="portfolio bg-light pt-4">
+        <div class="container">
+            <div class="row mb-4 pt-4">
+                <div class="col text-center">
+                    <h2>Portfolio</h2>
+                </div>
+            </div>
+            <div class="card mb-3">
+                <img src="img/blogsite.png" class="card-img-top portfolio-card-mystyle" alt="">
+                <div class="card-body">
+                    <h5 class="card-title">Blogsite</h5>
+                    <p class="card-text">Cikhidayat is my blogsite which I develop it by myself. You can visit it by click button below.</p>
+                    <a href="#" class="btn btn-primary">Visit Blogsite</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="contact pt-4 pb-5">
+        <div class="container">
+            <div class="row mb-4 pt-4">
+                <div class="col text-center">
+                    <h2>Contact</h2>
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-lg-4">
+                    <div class="card text-white bg-primary mb-3" style="max-width: 18rem;">
+                        <div class="card-body text-center">
+                            <h5 class="card-title">Contact Me</h5>
+                            <p class="card-text">Let me know what you need by visiting my house or chatting me on social media below.</p>
+                        </div>
+                    </div>
+                    <ul class="list-group pb-4">
+                        <li class="list-group-item"><h3>Location</h3></li>
+                        <li class="list-group-item">My House</li>
+                        <li class="list-group-item">Jl. Merapi 12 No.39A</li>
+                        <li class="list-group-item">Bengkulu, Bengkulu, Indonesia</li>
+                        <li class="list-group-item">38227</li>
+                    </ul>
+                </div>
+                <div class="col-lg-6">
+                        <div class="list-group">
+                            <a href="www.facebook.com/rahmathidayat674" target="_blank" class="list-group-item list-group-item-action list-group-item-info"><img width="25px" src="img/logo-facebook.png" alt=""> rahmathidayat674</a>
+                            <a href="www.instagram.com/rhmthidayat07" target="_blank" class="list-group-item list-group-item-action list-group-item-danger"><img width="25px" src="img/logo-instagram.png" alt=""> @rhmthidayat07</a>
+                            <a href="mailto:rhidayat674@gmail.com" target="_blank" class="list-group-item list-group-item-action list-group-item-warning"><img width="25px" src="img/logo-gmail.png" alt=""> rhidayat674@gmail.com</a>
+                        </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="bg-dark text-white pt-4">
+        <div class="container">
+            <div class="row">
+                <div class="col text-center">
+                    <p>Copyright 2019 Rahmat Hidayat. All rights reserved.</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+</body>
+</html>
